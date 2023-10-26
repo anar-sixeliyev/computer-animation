@@ -39,3 +39,6 @@ Make sure you have the necessary dependencies installed, including OpenGL and re
 ## Note
 
 The program is designed to handle different input data formats and automatically determine whether the coordinates are specified with fixed angles or quaternions. The primary focus is on the reshape and render functions, which are essential for the 3D rendering of the object.
+
+### Link to the demo
+https://youtu.be/UegaK6z6IfY

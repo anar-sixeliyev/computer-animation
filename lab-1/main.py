@@ -233,7 +233,6 @@ def load_data_from_file(file_path):
 
     dt = float(lines[0])
     algo = lines[1]
-    print(type(algo))
     control_points = []
     for i in range(2, len(lines)):
         data = lines[i].split()
@@ -253,7 +252,6 @@ def load_data_from_file(file_path):
     if len(control_points) < 4:
         print("You need at least 4 control points for interpolation.")
         sys.exit()
-    print('====> control_points, dt, algo', control_points, '\n', dt, '\n', algo)
 
 
 # Main function
