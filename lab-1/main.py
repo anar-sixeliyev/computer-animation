@@ -1,4 +1,10 @@
 ##Structure is protected from LAB 0, such as we will be focusing on the reshape and render functions
+## Program will read the inputs ( Geometric data for an object, Set of control points, the type (Catmull-Rom or B), and the spacing (dt))
+## from the input_file.txt file under the inputs folder. File has to be in the below format:
+## First line must contain the value of the dt
+## Second line must contain the value of the Algorithm to be used - B-spline(BS) or Catmull-Rom(CMS)
+## Starting from the third line and forward will contain the geometric data of the object.
+## No need to spesify if the coordinates given with  Fixed Angles or Quaternions, code can identify it(by checking length) and process it by itself.
 import numpy as np
 from OpenGL.GL import *
 from OpenGL.GLU import *
