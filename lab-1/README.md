@@ -15,13 +15,13 @@ The `input_file.txt` file should follow a specific format:
 ## Example Input File
 
 Here's an example of an `input_file.txt`:
-
+```bash
 0.1
 CMS
 1.0 2.0 3.0 30.0 45.0 60.0
 2.0 3.0 4.0 45.0 60.0 90.0
 3.0 4.0 5.0 60.0 90.0 120.0
-
+```
 
 In this example, `0.1` is the time spacing (`dt`), and "CMS" indicates the use of the Catmull-Rom interpolation algorithm. The following lines represent the geometric data for the object, including position and orientation values.
 
