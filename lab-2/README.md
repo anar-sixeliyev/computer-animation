@@ -30,7 +30,7 @@ In this example, `0.1` is the time spacing (`dt`), and "CMS" indicates the use o
 To run the program, execute the main Python script. The program will load the input data and render the object according to the specified algorithm and time spacing.
 
 ```bash
-python main.py
+python main-pygame.py
 ```
 
 Make sure you have the necessary dependencies installed, including OpenGL and related libraries.
